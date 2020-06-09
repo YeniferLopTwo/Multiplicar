@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TablasMultiplicar {
 /**
  * 
- * @param num 
+ * @param num le pasa una variable número
  */
     public static void multiplicar(int num) {
         for (int i = 1; i <= num; i++) {
@@ -20,7 +20,7 @@ public class TablasMultiplicar {
     }
 /**
  * 
- * @param args 
+ * @param args comprueba de que no introduzcas una letra
  */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
